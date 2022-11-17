@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function BasicExample() {
   return (
-    <Navbar  bg="light" expand="lg" >
+    <Navbar  bg="light" expand="lg" style={{position:"fixed" ,width:"100%"}}>
       <Container >
         <Navbar.Brand href="#home">PAGERLAND</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
